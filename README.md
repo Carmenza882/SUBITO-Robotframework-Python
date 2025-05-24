@@ -8,7 +8,7 @@ Este proyecto es con el fin de aprender el uso de  framework Robot Framework
 
 
 ## . CARACTERISTICAS
-El usuario va en busca de la opcion de interes, cuàndo incuentra su opciòn deseada procede a crear el anuncio adecuado con todos los dactos requeridos,en caso contrario contacta a la persona que ha creado el anuncio para ver si logran comercializar el inmueble.
+El usuario va en busca de la opcion de interes, cuàndo encuentra su opciòn deseada procede a crear el anuncio adecuado con todos los dactos requeridos,en caso contrario contacta a la persona que ha creado el anuncio para ver si logran comercializar el inmueble.
 
 # Tecnologias utilizadas
 
@@ -42,9 +42,17 @@ pip3 install robotframework-seleniumlibrary
 pip3 install robotframework-selenium2library
 
 2 Para ejecutar las pruebas
- -Identificar en que carpeta del proyecto de visual estudio,se encuentran los casos de prueba
- -Abrir desde el proyecto de visual studio una nueva terminal a travès de la  siguiente ruta:
+ -Identificar en que carpeta del proyecto de visual studio,se encuentran los casos de prueba
+ -Abrir el proyecto desde visual studio.  
+ Abrir una nueva terminal a travès de la  siguiente ruta:
  - Ir a la terminal > New Terminal.
- - Navegar al directorio donde están ubicados los archivos .robot, usando:cd ruta/al/directorio
-(Identificar la ubicacion/ruta/directorio de los archivos donde se encuentran los casos de prueba)
- - Ejecutar un caso de prueba con: robot TC1.robot,reemplace TC1.robot con el nombre real del archivo de prueba.
+ -Ingrsamos en la ruta del directorio hasta llegar a la carpeta en dònde estàn los casos de prueba usando el comando cd.
+ - Ejecutar un caso de prueba con el siguiente comando: robot + nombre del archivo de prueba+.robot.
+El informe HTML generado estará disponible en:```""C:\Users\giaqu\Desktop\AUTOMATIZACION\Netflix_RobotFramework-main\Netflix\specs\report.html"
+
+### Reporte de ejecucion
+Robot Framework genera un reporte detallado donde podrá ver:
+Casos ejecutados
+Resultados (éxito o fallo)
+Mensajes de error y logs
+Estadísticas por test suite y por test case
