@@ -56,3 +56,4 @@ Casos ejecutados
 Resultados (éxito o fallo)
 Mensajes de error y logs
 Estadísticas por test suite y por test case
+
